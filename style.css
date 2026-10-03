@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap');
+
+:root{font-family:'DM Sans',sans-serif;color:#18314b;background:#eff7ff;font-synthesis:none;text-rendering:optimizeLegibility;--blue:#3578b9;--ink:#18314b;--muted:#70869a;--line:#e7eef5}
+*{box-sizing:border-box}
+body{margin:0;min-height:100vh;background:radial-gradient(ellipse at 4% 10%,#d8edff 0,transparent 32%),radial-gradient(ellipse at 96% 74%,#d6eaff 0,transparent 36%),linear-gradient(135deg,#f6fbff,#eaf4ff 55%,#f8fcff)}
+button{font:inherit}.page-shell{width:min(1320px,calc(100% - 64px));margin:auto}.topbar{height:94px;display:flex;align-items:center;justify-content:space-between}.brand{display:flex;align-items:center;gap:12px;color:var(--ink);font:700 15px 'Manrope',sans-serif;text-decoration:none;letter-spacing:-.2px}.brand-mark{width:38px;height:38px;display:grid;place-items:center;border-radius:12px;background:#dcefff;color:#2871ae;font-size:12px}.lab-badge{padding:9px 13px;border:1px solid #d5e9f9;border-radius:999px;background:#ffffffbd;color:#547189;font-size:10px;letter-spacing:1.1px}.lab-badge b{margin-left:7px;color:#2e76b5}
+.dashboard{display:grid;grid-template-columns:minmax(220px,.78fr) minmax(400px,1.55fr) minmax(245px,.9fr);align-items:stretch;gap:20px;padding:17px 0 25px}.panel{background:#ffffffed;border:1px solid #ffffff;border-radius:20px;box-shadow:0 15px 45px #2a619015;padding:26px 24px}.contact-panel,.institute-panel{margin:36px 0;height:max-content;min-height:380px}.eyebrow{margin:0 0 10px;color:#4e8ab8;font-size:10px;font-weight:700;letter-spacing:1.55px}.panel h2{margin:0;font:700 19px 'Manrope',sans-serif;letter-spacing:-.45px}.muted{margin:9px 0 24px;color:var(--muted);font-size:12px;line-height:1.65}.contact-actions{display:grid;gap:10px}.contact-button{width:100%;display:grid;grid-template-columns:36px 1fr 14px;align-items:center;gap:10px;padding:12px 10px;border:1px solid var(--line);border-radius:12px;background:#fff;color:var(--ink);text-align:left;cursor:pointer;transition:transform .18s,border-color .18s,box-shadow .18s}.contact-button:hover,.contact-button:focus-visible{transform:translateY(-2px);border-color:#bddcf3;box-shadow:0 7px 18px #3578b914;outline:none}.action-icon{width:34px;height:34px;display:grid;place-items:center;border-radius:10px;background:#edf7ff;color:#397fb9;font-size:15px}.contact-button b,.contact-button small{display:block}.contact-button b{font-size:11px}.contact-button small{margin-top:3px;color:#8a9bab;font-size:9px}.arrow{color:#91aabe;font-size:15px}.availability{display:flex;align-items:center;gap:8px;margin-top:25px;padding-top:16px;border-top:1px solid var(--line);color:#71899d;font-size:10px}.status-dot{width:7px;height:7px;border-radius:50%;background:#60bd8a;box-shadow:0 0 0 4px #e8f8ef}
+.profile-panel{padding:34px 36px;min-height:480px}.profile-heading{display:flex;align-items:center;gap:20px}.avatar{width:80px;height:80px;flex:none;display:grid;place-items:center;border-radius:22px;background:linear-gradient(145deg,#cce8ff,#e8f5ff);color:#347cb8;font:800 23px 'Manrope',sans-serif;box-shadow:inset 0 0 0 1px #c3e1f8}.profile-heading .eyebrow{margin-bottom:6px}.profile-heading h1{margin:0;font:800 29px 'Manrope',sans-serif;letter-spacing:-1.3px}.designation{margin:5px 0 3px;color:#526d83;font-size:12px;font-weight:600}.affiliations{margin:0;color:#8798a7;font-size:11px}.divider{height:1px;margin:27px 0 23px;background:var(--line)}.bio-heading{display:flex;justify-content:space-between;align-items:center}.bio-heading .eyebrow{margin-bottom:5px}.bio-heading h2{font-size:18px}.location-tag{padding:7px 10px;border-radius:8px;background:#eff7fe;color:#4b84af;font-size:9px}.bio{margin:18px 0;color:#657b8f;font-size:12px;line-height:1.85}.expertise{display:flex;flex-wrap:wrap;gap:7px;margin-top:20px}.expertise span,.institute-footer span{padding:7px 9px;border-radius:8px;background:#f0f7fc;color:#577b98;font-size:9px;font-weight:600}
+.institute-panel{padding:26px 24px}.institute-icon{width:42px;height:42px;display:grid;place-items:center;margin:0 0 22px;border-radius:13px;background:linear-gradient(145deg,#e5f4ff,#cfe9fc);color:#397eae;font-size:22px}.institute-panel .eyebrow{margin-bottom:9px}.institute-panel h2{font-size:17px;line-height:1.45}.institute-copy{margin:14px 0 20px;color:#6b8093;font-size:11px;line-height:1.85}.institute-footer{display:flex;flex-wrap:wrap;gap:6px}.institute-footer span{font-size:8px}.footer{display:flex;justify-content:space-between;padding:17px 2px 28px;border-top:1px solid #dbeaf5;color:#8195a7;font-size:9px;letter-spacing:.55px}
+.modal-backdrop{position:fixed;inset:0;z-index:10;display:grid;place-items:center;padding:20px;background:#16324f70;backdrop-filter:blur(5px)}.modal-backdrop[hidden]{display:none}.modal{position:relative;width:min(390px,100%);padding:33px;border:1px solid #fff;border-radius:20px;background:#fff;text-align:center;box-shadow:0 25px 80px #152f4b40;animation:pop-in .2s ease-out}.modal-close{position:absolute;top:12px;right:15px;border:0;background:none;color:#7890a4;font-size:25px;cursor:pointer}.modal-symbol{width:44px;height:44px;display:grid;place-items:center;margin:0 auto 18px;border-radius:14px;background:#ecf7ff;color:#3b83bc}.modal h2{margin:0;font:700 22px 'Manrope',sans-serif}.modal-message{margin:11px 0 23px;color:#677f93;font-size:13px;line-height:1.6;overflow-wrap:anywhere}.modal-done{padding:10px 22px;border:0;border-radius:9px;background:#357db8;color:white;font-size:11px;font-weight:700;cursor:pointer}.modal-done:hover{background:#286ba2}@keyframes pop-in{from{opacity:0;transform:translateY(8px) scale(.98)}to{opacity:1;transform:translateY(0) scale(1)}}
+@media(max-width:1000px){.dashboard{grid-template-columns:minmax(210px,.75fr) minmax(380px,1.4fr)}.institute-panel{grid-column:1/-1;margin:0;min-height:0}.institute-copy{max-width:780px}.contact-panel{margin:20px 0 0}.profile-panel{grid-row:span 1}}
+@media(max-width:680px){.page-shell{width:min(100% - 32px,500px)}.topbar{height:76px}.brand{font-size:13px}.lab-badge{font-size:9px}.dashboard{grid-template-columns:1fr;gap:13px;padding-top:9px}.profile-panel{grid-row:auto;grid-column:1;padding:25px 22px}.contact-panel,.institute-panel{grid-column:1;margin:0;min-height:0;padding:23px 21px}.contact-panel{grid-row:2}.institute-panel{grid-row:3}.profile-heading{gap:14px}.avatar{width:64px;height:64px;border-radius:18px}.profile-heading h1{font-size:24px}.profile-panel{min-height:0}.footer{gap:10px;line-height:1.5;font-size:8px}.footer span:last-child{text-align:right}}
+@media(prefers-reduced-motion:reduce){*,*::before,*::after{scroll-behavior:auto!important;animation-duration:.01ms!important;animation-iteration-count:1!important;transition-duration:.01ms!important}}
+.bio{display:grid;gap:4px;margin:18px 0;color:#657b8f;font-size:12px;line-height:1.65}.bio span{display:block}.experience{display:flex;align-items:center;gap:10px;margin-top:17px;padding:12px;border:1px solid #e7eef5;border-radius:12px;background:#fbfdff}.experience-mark{width:30px;height:30px;display:grid;place-items:center;border-radius:9px;background:#edf7ff;color:#4184b8;font-size:12px}.experience b,.experience small{display:block}.experience b{color:#45637b;font-size:10px}.experience small{margin-top:3px;color:#8799a8;font-size:9px}.expertise{margin-top:15px}
+.cgpa{display:inline-block;margin:8px 0 0;padding:5px 9px;border:1px solid #dcecf8;border-radius:8px;background:#f4faff;color:#62819b;font-size:10px}.cgpa b{color:#3378b3}
+@media(min-width:1001px){
+  body{height:100svh;overflow:hidden}
+  .page-shell{height:100svh;min-height:0;display:flex;flex-direction:column}
+  .topbar{height:68px;flex:0 0 68px}
+  .dashboard{flex:1;min-height:0;align-items:center;padding:0 0 10px}
+  .panel{padding:22px 20px}
+  .contact-panel,.institute-panel{margin:0;min-height:0}
+  .profile-panel{min-height:0;padding:24px 28px}
+  .avatar{width:68px;height:68px;border-radius:19px}
+  .divider{margin:19px 0 16px}
+  .bio{gap:2px;margin:13px 0;font-size:11px;line-height:1.45}
+  .expertise{margin-top:12px}
+  .footer{flex:none;padding:10px 2px 14px}
+}
+@media(min-width:1001px) and (max-height:700px){
+  .topbar{height:54px;flex-basis:54px}
+  .panel{padding:16px 18px}
+  .profile-panel{padding:17px 23px}
+  .profile-heading{gap:14px}
+  .avatar{width:54px;height:54px;border-radius:15px}
+  .profile-heading h1{font-size:24px}
+  .divider{margin:14px 0 12px}
+  .bio{gap:1px;margin:9px 0;font-size:10px;line-height:1.3}
+  .expertise{margin-top:8px;gap:5px}
+  .footer{padding:7px 2px 10px}
+}
+
+/* Keep the profile readable on larger screens without clipping its content. */
+@media(min-width:1001px){
+  body{height:auto;min-height:100svh;overflow-y:auto}
+  .page-shell{height:auto;min-height:100svh}
+  .dashboard{flex:1 0 auto}
+  .bio{font-size:14px;line-height:1.6}
+}
+.eyebrow{font-size:12px}
+.panel h2{font-size:21px}
+.muted{font-size:14px}
+.contact-button b{font-size:14px}
+.contact-button small{font-size:12px}
+.availability{font-size:12px}
+.designation{font-size:14px}
+.affiliations{font-size:13px}
+.location-tag,.expertise span,.institute-footer span{font-size:11px}
+.institute-panel h2{font-size:19px}
+.institute-copy{font-size:14px}
+.footer{font-size:11px}
+.modal-message{font-size:15px}
+.modal-done{font-size:13px}
+.brand{font-size:17px}
+.lab-badge{font-size:11px}
+@media(max-width:680px){.brand{font-size:14px}.lab-badge{font-size:10px}}

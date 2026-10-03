@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#eaf5ff">
+<meta name="description" content="Academic profile and glacier research interests of Laiba Rafi.">
+  <title>Academic Profile | Laiba Rafi</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <div class="page-shell">
+    <header class="topbar">
+      <a class="brand" href="#home" aria-label="Academic profile home"><span class="brand-mark">LR</span><span>Academic Profile</span></a>
+      <span class="lab-badge">WEBGIS <b>LAB 02</b></span>
+    </header>
+
+    <main id="home" class="dashboard">
+      <aside class="panel contact-panel" aria-labelledby="connect-title">
+        <p class="eyebrow">LET'S CONNECT</p>
+        <h2 id="connect-title">Quick contact</h2>
+        <p class="muted">Choose a contact option to view the details.</p>
+        <div class="contact-actions">
+          <button class="contact-button" type="button" data-popup="email"><span class="action-icon">@</span><span><b>Email</b><small>Open email details</small></span><span class="arrow">↗</span></button>
+          <button class="contact-button" type="button" data-popup="phone"><span class="action-icon">☎</span><span><b>Phone number</b><small>Open phone details</small></span><span class="arrow">↗</span></button>
+          <button class="contact-button" type="button" data-popup="more"><span class="action-icon">＋</span><span><b>More info</b><small>Additional details</small></span><span class="arrow">↗</span></button>
+        </div>
+        <div class="availability"><span class="status-dot"></span><span>Open to academic collaboration</span></div>
+      </aside>
+
+      <section class="panel profile-panel" aria-labelledby="profile-name">
+        <div class="profile-heading">
+          <div class="avatar" aria-hidden="true">LR</div>
+          <div><p class="eyebrow">UNDERGRADUATE STUDENT</p><h1 id="profile-name">Laiba Rafi</h1>
+            <p class="designation">BS Student · 5th Semester</p>
+            <p class="affiliations">PMAS Arid Agriculture University · Institute of Geo-Information &amp; Earth Observation</p>
+          </div>
+        </div>
+        <div class="divider"></div>
+        <div class="bio-heading"><div><p class="eyebrow">PROFILE</p><h2>About my work</h2></div><span class="location-tag">Geo-information</span></div>
+        <p class="bio"><span>I am a fifth-semester BS student at PMAS Arid Agriculture University, studying at the Institute of Geo-Information &amp; Earth Observation.</span><span>I am drawn to mountains and the natural world, and I hope to bring that curiosity into my academic work.</span><span>My main research interest is glacier change and the effects of melting glaciers on climate, landscapes, and communities.</span><span>I am especially interested in how meltwater and rising sea levels can affect low-lying coastal areas.</span><span>I have not yet conducted independent research or published or submitted a research paper.</span><span>I am keen to learn how GIS and earth observation can be used to monitor glacier change.</span><span>I hope to build my technical skills and undertake supervised research as my studies progress.</span></p>
+        <div class="expertise"><span>Glacier change</span><span>Climate impacts</span><span>Earth observation</span><span>GIS</span></div>
+      </section>
+
+      <aside class="panel institute-panel" aria-labelledby="institute-title">
+        <div class="institute-icon" aria-hidden="true">◈</div>
+        <p class="eyebrow">THE INSTITUTE</p>
+        <h2 id="institute-title">Institute of Geo-Information &amp; Earth Observation</h2>
+        <p class="institute-copy">IGEO offers BS, MS, and Ph.D. programs in Geoinformatics, Remote Sensing, and GIS. It combines practical education with research, preparing graduates to use geospatial technology to address climate change and resource management.</p>
+        <div class="institute-footer"><span>GIS</span><span>Remote sensing</span><span>Earth observation</span></div>
+      </aside>
+    </main>
+
+    <footer class="footer"><span>WEBGIS DEVELOPMENT COURSE</span><span>Lab 02 · Professional Profile Dashboard</span></footer>
+  </div>
+
+  <div class="modal-backdrop" id="popup" hidden>
+    <section class="modal" role="dialog" aria-modal="true" aria-labelledby="modal-title" aria-describedby="modal-message">
+      <button class="modal-close" type="button" aria-label="Close popup">×</button>
+      <span class="modal-symbol" aria-hidden="true">✦</span>
+      <p class="eyebrow">CONTACT DETAILS</p>
+      <h2 id="modal-title">Email</h2>
+      <p id="modal-message" class="modal-message"></p>
+      <button class="modal-done" type="button">Got it</button>
+    </section>
+  </div>
+</body>
+</html>
